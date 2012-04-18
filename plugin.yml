@@ -1,0 +1,10 @@
+name: RegionExtras
+main: no.runsafe.regionextras.RegionExtras
+version: 1.0
+author: Kruithne
+description: Extra region control
+commands:
+  regionextras:
+    description: Region Extras Commands
+    usage: /regionextras <command>
+    aliases: [re]
