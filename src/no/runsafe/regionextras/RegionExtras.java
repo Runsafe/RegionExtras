@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class RegionExtras extends RunsafePlugin
 {
     @Override
-    protected void PluginSetup()
+    protected void pluginSetup()
     {
         this.addComponent(InfoCommand.class);
 
