@@ -1,7 +1,6 @@
 package no.runsafe.regionextras.commands;
 
 
-import no.runsafe.framework.server.RunsafeLocation;
 import no.runsafe.framework.server.player.RunsafePlayer;
 
 public class UnusedCommand
@@ -43,7 +42,7 @@ public class UnusedCommand
         player.sendMessage("PlotPartIDX: " + plotPositionX + " PlotPartIDZ: " + plotPositionZ);
         player.sendMessage("OriginX: " + originX + " OriginZ: " + originZ);
 
-        player.teleport(new RunsafeLocation(player.getWorld(), originX + 0.5, 70, originZ + 0.5, 43, 5));
+        player.teleport(player.getWorld().getLocation(originX + 0.5, 70.0, originZ + 0.5, 43, 5));
 
         return true;
     }
